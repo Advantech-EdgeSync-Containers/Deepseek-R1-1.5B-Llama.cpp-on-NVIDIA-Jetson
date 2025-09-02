@@ -30,7 +30,7 @@ The Deepseek-R1 1.5B Llama.cpp on NVIDIA Jetson™ delivers a plug-and-play AI r
 
 
 ## Container Demo
-![Demo](..%2Fdata%2Fgifs%2Fllamacpp-deepseek.gif)
+![Demo](data%2Fgifs%2Fllamacpp-deepseek.gif)
 
 ## Use Cases
 
