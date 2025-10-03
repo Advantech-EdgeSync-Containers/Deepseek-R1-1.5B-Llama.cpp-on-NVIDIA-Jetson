@@ -39,7 +39,7 @@
 # ==========================================================================
 services:
   llama-cpp-service:
-      image: edgesync.azurecr.io/advantech/llm-llama-cpp-on-nvidia-jetson:1.5.0-Ubuntu20.04-ARM
+      image: edgesync.azurecr.io/advantech/deepseek-r-b-llama-cpp-on-nvidia-jetson:1.5.0-Ubuntu20.04-ARM
       container_name: Deepseek-R1-1.5B-Llama.cpp-on-NVIDIA-Jetson
       env_file: .env
       privileged: true
