@@ -56,8 +56,8 @@ The Deepseek-R1 1.5B Llama.cpp on NVIDIA Jetson™ delivers a plug-and-play AI r
 | Item | Specification                                                                                                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Compatible Hardware | Advantech devices accelerated by NVIDIA Jetson™—refer to [Compatible hardware](https://catalog.advantech.com/en-us/containers/jetson-gpu-passthrough/compatible-hardware) |
-| NVIDIA Jetson™ Version | 5.x                                                                                                                                                                       |
-|Host OS          | Ubuntu 20.04                                                                                                                                                              |
+| NVIDIA Jetson™ Version | 6.0                                                                                                                                                                       |
+|Host OS          | Ubuntu 22.04                                                                                                                                                              |
 | Required Software Packages | Refer to Below                                                                                                                                                            |
 | Software Installation | [NVIDIA Jetson™ Software Package Installation](https://developer.advantech.com/EdgeSync/Containers/Environment/NVIDIA)                                                    |                                                                                                        |
 
@@ -66,20 +66,18 @@ The Deepseek-R1 1.5B Llama.cpp on NVIDIA Jetson™ delivers a plug-and-play AI r
 
 ### Software Components on Container Image
 
-| Component       | Version        | Description                              |
-|-----------------|----------------|------------------------------------------|
-| CUDA®           | 11.4.315       | GPU computing platform                   |
-| cuDNN           | 8.6.0          | Deep Neural Network library              |
-| TensorRT™       | 8.5.2.2        | Inference optimizer and runtime          |
-| PyTorch         | 2.0.0+nv23.02  | Deep learning framework                  |
-| TensorFlow      | 2.12.0 | Machine learning framework               |
-| ONNX Runtime    | 1.16.3         | Cross-platform inference engine          |
-| OpenCV          | 4.5.0          | Computer vision library with CUDA®       |
-| GStreamer       | 1.16.2         | Multimedia framework                     |
-| FastAPI         | 0.115.12       | API service exposing LangChain interface |
-| OpenWebUI       | 0.6.5          | Web interface for chat interactions      |
-| LlamaCpp        | 0.2.0          | LLM inference engine                     |
-| LlamaCpp-Python | 0.3.9          | Python wrapper for LlamaCPP              |
+| Component       | Version  | Description                              |
+|-----------------|----------|------------------------------------------|
+| CUDA®           | 12.6.68  | GPU computing platform                   |
+| cuDNN           | 9.3.0.75 | Deep Neural Network library              |
+| TensorRT™       | 10.3.0.30| Inference optimizer and runtime          |
+| VPI             | 3.2.4    | Vision Programming Interface             |
+| Vulkan          | 1.3.204  | Graphics and compute API                 |
+| OpenCV          | 4.8.0    | Computer vision library with CUDA®       |
+| FastAPI         | 0.115.12 | API service exposing LangChain interface |
+| OpenWebUI       | 0.6.5    | Web interface for chat interactions      |
+| LlamaCpp        | 0.2.0    | LLM inference engine                     |
+| LlamaCpp-Python | 0.3.9    | Python wrapper for LlamaCPP              |
 
 ### Container Quick Start Guide
 For container quick start, including the docker-compose file and more, please refer to [README.](https://github.com/Advantech-EdgeSync-Containers/Nagarro-Container-Project/blob/main/Deepseek-R1-1.5B-Llama.cpp-on-NVIDIA-Jetson/README.md)
