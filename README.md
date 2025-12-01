@@ -184,9 +184,24 @@ git clone https://github.com/Advantech-EdgeSync-Containers/Deepseek-R1-1.5B-Llam
 cd Deepseek-R1-1.5B-Llama.cpp-on-NVIDIA-Jetson
 
 # Update HF_TOKEN in .env file
-# Create a hugging face token with read permissions
-# Follow 'Authentication token' section under quantization-readme.md
-HF_TOKEN=<ADD-YOUR-HF-TOKEN>
+# Open the .env file with your preferred text editor (vim, nano, etc.)
+nano .env
+# Or use vim:
+# vim .env
+# Find the line that says:
+# HF_TOKEN=<your-token>
+# Replace <your-token> with your actual Hugging Face token (without angle brackets)
+# Example: HF_TOKEN=hf_xxxxxxxxxxxxxxxxxxxx
+# Do NOT use quotes around the token
+# Save and exit (in nano: Ctrl+O, Enter, Ctrl+X; in vim: :wq)
+# For more details on creating a Hugging Face token, see:
+# https://huggingface.co/docs/hub/security-tokens
+
+# IMPORTANT
+# 1. Update MODEL_NAME to match your desired model's filename (e.g., DeepSeek-R1-1.5B.gguf)
+# 2. Update HF_REPO to point to the correct Hugging Face repository
+# 3. Update HF_MODEL_FILE to match the exact filename in the repository
+# 4. Ensure all three values are consistent with each other
 
 # Make the download model script executable
 chmod +x download_model.sh
