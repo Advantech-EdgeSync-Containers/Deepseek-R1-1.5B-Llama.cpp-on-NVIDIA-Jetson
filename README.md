@@ -3,6 +3,7 @@
 **Version:** 2.0
 **Release Date:** August 2025
 **Copyright:** © 2025 Advantech Corporation. All rights reserved.
+>  Check our [Troubleshooting Wiki](https://github.com/Advantech-EdgeSync-Containers/GPU-Passthrough-on-NVIDIA-Jetson/wiki/Advantech-Containers'-Troubleshooting-Guide) for common issues and solutions.
 
 ## Overview
 DeepSeek-R1 1.5B Llama.cpp on NVIDIA Jetson™ offers a streamlined, hardware-accelerated platform for building and deploying conversational AI on NVIDIA Jetson™ devices. It features LlamaCpp-Python (a Python interface for LlamaCPP) and the DeepSeek R1 1.5B model, enabling efficient on-device inference. The container also integrates OpenWebUI for an intuitive chat interface and includes optimized AI software components. Designed for edge environments, it delivers high performance, low latency, and reliable real-time AI experiences.
